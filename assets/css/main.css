@@ -1,16 +1,23 @@
 @import '../fonts/fonts.css';
 
 :root {
-    --white: #ffffff;
-    --black: #212429;
     --pink: #F784AD;
-    --purple: #7048E8;
     --blue: #374FC7;
-    --red: #F03D3E;
+    --blue_hover: #2342C0;
+    --blue_disabled: #A0B0F4;
+    --purple: #7048E8;
+    --purple_hover: #5028C6;
+    --purple_disabled: #B7A3F3;
+    --white: #ffffff;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --black: #212429;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
+    --grey-3-30: rgba(73, 80, 87, 0.30);
     --grey-4: #495057;
+    --grey-4-30: rgba(172, 181, 189, 0.30);
+    --red: #F03D3E;
 
     --error: var(--red);
     --success: var(--blue);
@@ -20,18 +27,18 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter';
 }
 h1 {
 color:var(--black);
-font-family: Roboto, sans-serif;
+font-family: Inter;
 font-size: 50px;
 font-style: normal;
 font-weight: 500;
 line-height: 64px; /* 128% */
 }
 h2 {
-font-family: Roboto, sans-serif;
+font-family: Inter;
 font-size: 38px;
 font-style: normal;
 font-weight: 500;
@@ -42,7 +49,7 @@ header {
     background-color: var(--grey-2); 
     color: black; 
     padding: 20px;
-    font-family: Roboto;
+    font-family: Inter;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
@@ -52,7 +59,7 @@ nav {
     text-align: center;
     background-color: var(--grey-3);
     padding: 20px;
-    font-family: Roboto;
+    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

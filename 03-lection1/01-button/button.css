@@ -1,1 +1,149 @@
-/* Стилизация кнопки */
+/* button.css */
+@import '../../assets/css/main.css';
+
+/* 1 button primary */
+.button.primary.default {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+
+}
+/* hover */
+.button.button.primary.default:hover {
+    background-color: var(--blue_hover);
+}
+/* disabled */
+.button.primary.disabled {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    background-color: var(--blue_disabled);
+    color:var(--white-50);
+    cursor: not-allowed;
+}
+
+/* 2 button secondary */
+.button.secondary.default {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background-color: var(--purple);
+    color: var(--white);
+
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+
+}
+/* hover */
+.button.button.secondary.default:hover {
+    background-color: var(--purple_hover);
+}
+/* disabled */
+.button.secondary.disabled {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    background-color: var(--purple_disabled);
+    color:var(--white-50);
+    cursor: not-allowed;
+}
+
+/* 3 button alternative */
+.button.button.alternative.default {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+
+    transition: opacity 200ms ease-in-out, border 200ms ease-in-out;
+
+}
+/* hover */
+.button.button.alternative.default:hover {
+    background-color: transparent;
+    border: 1px solid var(--black);
+    color: var(--grey-4)
+}
+
+/* disabled */
+.button.alternative.disabled {
+    height: 48px;
+    padding: 0 24px;
+    min-width: 100px;
+    max-width: 360px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--grey-3-30);
+    font-size: 16px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: not-allowed;
+    color: var(--grey-4-30);
+}
