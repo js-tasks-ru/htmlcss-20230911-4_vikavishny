@@ -62,7 +62,7 @@
     background-color: var(--purple_disabled);
     color:var(--white-50);
 }
-.button.button.button_alternative.disabled {
+.button.button.button_alternative:disabled {
 background-color: transparent;
 border: 1px solid var(--grey-3-30);
 color: var(--grey-4-30);
