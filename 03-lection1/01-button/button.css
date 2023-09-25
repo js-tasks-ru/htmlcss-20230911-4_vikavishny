@@ -19,50 +19,50 @@
     transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 /* primary */
-.button.button.button_primary{
+.button_primary{
     background-color: var(--blue);
     color: var(--white);
 }
 
 /* primary hover */
-.button.button.button_primary:hover {
+button_primary:hover {
     background-color: var(--blue_hover);
 }
 /* secondary */
-.button.button.button_secondary{
+.button_secondary{
     background-color: var(--purple);
     color: var(--white);
 }
 /* secondary hover */
-.button.button.button_secondary:hover {
+.button_secondary:hover {
     background-color: var(--purple_hover);
 }
 /* alternative */
-.button.button.button_alternative {
+.button_alternative {
     background-color: transparent;
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
 }
 /* alternative hover */
-.button.button.button_alternative:hover {
+.button_alternative:hover {
     background-color: transparent;
     border: 1px solid var(--black);
     color: var(--grey-4)
 }
 /* disabled */
-.button.button.button:disabled {
-    cursor: not-allowed; 
+.button:disabled {
+    pointer-events: none; 
 }
 
-.button.button.button_primary:disabled {
+.button_primary:disabled {
     background-color: var(--blue_disabled);
     color:var(--white-50);
 }
-.button.button.button_secondary:disabled {
+.button_secondary:disabled {
     background-color: var(--purple_disabled);
     color:var(--white-50);
 }
-.button.button.button_alternative:disabled {
+.button_alternative:disabled {
 background-color: transparent;
 border: 1px solid var(--grey-3-30);
 color: var(--grey-4-30);
