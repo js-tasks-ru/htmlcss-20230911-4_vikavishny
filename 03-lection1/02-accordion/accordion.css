@@ -1,41 +1,38 @@
 /* Стилизация аккордеона */
-
-.accordion_item {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 32px;
-    padding-right: 32px;
+.accordion__item {
+    padding: 12px 32px;
     border: 1px solid var(--grey-3);
-    border-radius: 8px;
-    width: 580px;
-    margin: 8px;
-}
+    border-radius: 8px;}
+
 /* Стиль заголовка */
-.accordion_title { 
+.accordion__title { 
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    color: var(--Black, #212429)
-}
+    line-height: 24px; 
+    color: var(--Black, #212429);
+    margin: 0; }
+
 /* Стиль наборного текста */
-.accordion_content {
+.accordion__content {
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     color: var(--Grey-4, #495057);
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /* Отключение стрелки */
-.accordion_summary {
+.accordion__summary::-webkit-details-marker {
     display: inline;
-    list-style-type: none;
-    
-}
-.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
-    display: none;
-}
+    display: none;}
+
+.accordion__summary {
+    list-style-type: none;}
+
+/* Отступ между блоками */
+.accordion__item:not(:last-child) {
+    margin-bottom: 8px;}
