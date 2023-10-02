@@ -1,0 +1,44 @@
+     .header h1{
+        background-color: var(--white); 
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px;
+        color: var(--Black);  
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left:160px;
+    }
+
+    .content {
+        background-color: #F9FAFC;
+        width: 100%;
+        height: 1036px;
+    }
+    
+    .footer{
+        background-color: var(--white); 
+        padding-top: 80px;
+        padding-bottom: 100px;
+        width: 100%;
+        text-align: center;
+        color: var(--black); 
+        font-family: Inter;
+        max-width: 640px;
+        margin: 0 auto;
+
+    }
+    .footer h2{
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+    }
+
+    .footer p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
