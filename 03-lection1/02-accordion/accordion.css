@@ -1,6 +1,6 @@
 /* Стилизация аккордеона */
 .accordion__item {
-    padding: 12px 32px;
+    padding: 24px 32px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;}
 
@@ -36,3 +36,7 @@
 /* Отступ между блоками */
 .accordion__item:not(:last-child) {
     margin-bottom: 8px;}
+
+.accordeon__details[open] {
+    margin-bottom: 32px;
+}
